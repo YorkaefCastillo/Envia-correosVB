@@ -1,0 +1,45 @@
+Imports System.Net
+Imports System.Net.Mail
+Imports System
+
+Module Program
+
+
+
+    Sub Main(args As String())
+        Dim message As New MailMessage
+        Dim smtp As New SmtpClient
+        Dim Mensaje As String = "Hola Buenas Noche"
+        Dim Asunto As String = "123"
+
+        With message
+            .From = New System.Net.Mail.MailAddress("cristopher.cc210@gmail.com")
+            .To.Add("cristopher.cc210@gmail.com")
+            .Body = Mensaje
+            .Subject = Asunto
+            .Priority = System.Net.Mail.MailPriority.Normal
+        End With
+
+        With smtp
+            .EnableSsl = True
+            .Port = "587"
+            .Host = "smtp.@gmail.com"
+            .Credentials = New Net.NetworkCredential("cristopher.cc210@gmail.com", "56349134")
+            .Send(message)
+
+        End With
+
+        Try
+            Console.Write("Correo Enviado Con exito")
+        Catch ex As Exception
+            Console.Write("Error " & ex.Message & " al Enviar el Correo")
+        End Try
+    End Sub
+End Module
+
+
+
+
+
+Para que funcione al 100 tiene que configurar su gmail con el que va enviar el mensaje
+tiene que activarle apps menos segurar y agregar la contraceña que le de en contraceñas 

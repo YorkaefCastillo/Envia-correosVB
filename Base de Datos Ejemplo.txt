@@ -1,0 +1,129 @@
+create database Gmails;
+use Upanadb;
+CREATE TABLE CLIENTES(
+ IdCliente Serial primary key ,
+ Nombre varchar(100) not null,
+ Email varchar (100) not null,
+ NIT varchar (20) null,
+ Estado int null
+);
+
+
+select * from Clientes
+
+INSERT INTO CLIENTES (Nombre,Email,NIT,Estado)
+VALUES
+  ("Lael Pearson","in@gmail.com","UJK42YPV3NI","1"),
+  ("Charlotte Valencia","sem.ut@gmail.com","BTM42OJU7IW","7"),
+  ("Noble Dean","interdum.nunc.sollicitudin@gmail.com","QNN25PNC1NJ","15"),
+  ("Evan Mcguire","cum@gmail.com","BPL81TJZ7EF","7"),
+  ("Yuli Sparks","ligula@gmail.com","KCH60XJE0XJ","7"),
+  ("Bert Mcclain","eu.ultrices@gmail.com","CDI45RTJ6XI","11"),
+  ("Nichole Mann","semper.cursus@gmail.com","BNS66TSR8TO","3"),
+  ("Demetrius Graham","ultrices.sit@gmail.com","QWM32SBP2PU","13"),
+  ("Giacomo Duffy","diam.nunc@gmail.com","SPI44NIJ6YT","17"),
+  ("Dai Pruitt","turpis.nec@gmail.com","YZF97KOC5LQ","5");
+INSERT INTO CLIENTES (Nombre,Email,NIT,Estado)
+VALUES
+  ("Jerry Fuentes","semper.nam.tempor@gmail.com","SYM55RNE8GL","19"),
+  ("Valentine Bowers","vitae.orci@gmail.com","EYR68CRE6IY","19"),
+  ("Reuben Torres","ac.tellus.suspendisse@gmail.com","GGL26DAR7VF","7"),
+  ("Benedict Day","dolor.fusce.feugiat@gmail.com","KXI42UCG4EG","7"),
+  ("Stone Espinoza","turpis.vitae@gmail.com","NSG11EXM7QR","15"),
+  ("Claire Long","egestas.a@gmail.com","APC85KUQ4YL","17"),
+  ("Isabelle Nicholson","ornare.sagittis@gmail.com","AEG17OEB9RP","5"),
+  ("Melvin Wooten","eu.nibh.vulputate@gmail.com","ULF83CQC1QX","19"),
+  ("Chaim Maynard","a.malesuada.id@gmail.com","TJT66BWI2GD","15"),
+  ("Shoshana Colon","hendrerit@gmail.com","DYP58JCI1TJ","19");
+INSERT INTO CLIENTES (Nombre,Email,NIT,Estado)
+VALUES
+  ("Aladdin Wilkerson","aliquam@gmail.com","DOJ76BBV4BU","13"),
+  ("Leroy Carney","at@gmail.com","ZIZ18VIE2PZ","5"),
+  ("Reece Walton","tristique.pharetra@gmail.com","HFX76CBS6IH","9"),
+  ("Mikayla Burt","libero@gmail.com","WMP68LXN2WD","1"),
+  ("Risa Sharp","feugiat.sed.nec@gmail.com","IDH81GPO8CJ","1"),
+  ("Maya Donaldson","eget@gmail.com","GHD32EIR7XG","19"),
+  ("Asher Holland","dolor.dolor@gmail.com","TPC82OFJ2NU","11"),
+  ("Jaime Hawkins","phasellus.nulla.integer@gmail.com","RIK83BDE3KS","5"),
+  ("Elmo Hartman","sed.dictum@gmail.com","AOT78YCV8HX","13"),
+  ("Simon Lucas","commodo.tincidunt@gmail.com","KKF76FTM9KW","15");
+INSERT INTO CLIENTES (Nombre,Email,NIT,Estado)
+VALUES
+  ("Justin Clements","cras@gmail.com","NLR69TBT8ON","11"),
+  ("Richard Rosales","primis.in@gmail.com","BYF17JBF8WM","15"),
+  ("Ivana Blair","nec.malesuada@gmail.com","HOR61DGV5CD","3"),
+  ("Myles Richardson","integer.vitae.nibh@gmail.com","HHP22SEE6GH","9"),
+  ("Indira Villarreal","nullam.velit@gmail.com","EIX21HUC2MX","15"),
+  ("Ulysses Meyer","arcu.eu@gmail.com","QKY94KKR0PU","17"),
+  ("Imelda Dorsey","molestie@gmail.com","YGO64SEZ0YC","15"),
+  ("Kasimir Curtis","sed.leo.cras@gmail.com","PBQ71ISF3WJ","5"),
+  ("Helen Bird","lobortis@gmail.com","QST68BED8FK","11"),
+  ("Audra Moreno","blandit.mattis@gmail.com","BFC28ZOE0YP","11");
+INSERT INTO CLIENTES (Nombre,Email,NIT,Estado)
+VALUES
+  ("Ayanna Hampton","vitae@gmail.com","STM51ORS5CM","15"),
+  ("Jessamine Jacobs","suspendisse.aliquet.sem@gmail.com","SMQ14JAU5AN","19"),
+  ("Nicole Green","nunc.ut@gmail.com","JHJ15IMJ8RV","3"),
+  ("Bethany Copeland","in.faucibus@gmail.com","FWC16JRN2XV","5"),
+  ("Gay Sampson","tortor@gmail.com","GPC15XDO1LA","7"),
+  ("Ashton Barber","pulvinar@gmail.com","ZPD77LTV4IV","11"),
+  ("Sophia Guy","sit.amet@gmail.com","OEK61VWC7MO","19"),
+  ("Audra Roth","sed.dui@gmail.com","RYO37POJ3JI","5"),
+  ("Georgia Christian","lobortis.tellus.justo@gmail.com","TAM31VRS2HU","1"),
+  ("Amal Reese","ut.dolor@gmail.com","CXN16VDB7JP","19");
+INSERT INTO CLIENTES (Nombre,Email,NIT,Estado)
+VALUES
+  ("Talon Justice","nunc@gmail.com","QMX67APD5JI","13"),
+  ("Cooper Bowman","natoque.penatibus.et@gmail.com","ZND47DBE1OP","17"),
+  ("Maxine Warner","lobortis@gmail.com","XNW44QNM3JG","7"),
+  ("Lance Hendrix","diam.nunc.ullamcorper@gmail.com","ZVG24QHR1EY","3"),
+  ("Timon Park","ante.nunc@gmail.com","NYW45LOC8CU","15"),
+  ("Scarlett Randall","sed.facilisis@gmail.com","VXC12TIO0KG","7"),
+  ("Micah Conley","ut.erat@gmail.com","IPI74KRP0WH","9"),
+  ("Nina Warren","vel.convallis@gmail.com","EQF37TDR8DJ","9"),
+  ("Astra Woodward","duis@gmail.com","ECW14QUO1JE","3"),
+  ("Yen Galloway","duis.sit@gmail.com","DOO79LCT5RT","7");
+INSERT INTO CLIENTES (Nombre,Email,NIT,Estado)
+VALUES
+  ("Eric Keller","in.mi@gmail.com","UYH13VTF3NA","17"),
+  ("Mari Strickland","ligula.aliquam@gmail.com","XIX76CLS1AN","5"),
+  ("Arthur Cain","risus@gmail.com","MMM01UBV9FD","1"),
+  ("Kai Juarez","tincidunt.congue.turpis@gmail.com","WJH42YIY9QO","19"),
+  ("Jeremy Bentley","ut.cursus@gmail.com","JHA87KWC5AU","7"),
+  ("Nasim Blair","aenean.sed@gmail.com","ZHX87DWB1NC","13"),
+  ("Selma Wagner","adipiscing.elit@gmail.com","WHP15MDR0AL","9"),
+  ("Levi Franklin","nisl.arcu@gmail.com","MKP53YKQ7UC","11"),
+  ("Adena Holden","sit.amet.risus@gmail.com","SIT21DCT3XK","1"),
+  ("Maia Hale","et.magna@gmail.com","CXU73JGW5IV","5");
+INSERT INTO CLIENTES (Nombre,Email,NIT,Estado)
+VALUES
+  ("Chaney Torres","vulputate.eu@gmail.com","BWD32NYW0HN","3"),
+  ("Cynthia Tillman","mauris.quis@gmail.com","HHL46AHV5PA","3"),
+  ("Chloe Jacobs","enim.commodo@gmail.com","RYP84FZF8CI","17"),
+  ("Aretha Maldonado","donec.luctus@gmail.com","EQM33KUB8JM","15"),
+  ("Abraham Charles","mi@gmail.com","MTP67RZP7YH","9"),
+  ("Samantha Delgado","ac.mi.eleifend@gmail.com","OVJ05ZRZ8DQ","13"),
+  ("Kyra Bass","nibh@gmail.com","XKK64ROU6MV","5"),
+  ("Prescott Knowles","sem@gmail.com","RRO84PBX3PW","15"),
+  ("Harding Ellis","sit@gmail.com","ITC58SUE3NH","7"),
+  ("Hamish Gilbert","pede.nec@gmail.com","MGZ41FQN1IC","17");
+INSERT INTO CLIENTES (Nombre,Email,NIT,Estado)
+VALUES
+  ("Oprah Washington","nulla.ante@gmail.com","MCS14LWA8OQ","3"),
+  ("Jason Burks","mi.fringilla.mi@gmail.com","JPQ12QPN3CT","13"),
+  ("Delilah Mendez","integer.vulputate@gmail.com","IDX62JUM4HZ","9"),
+  ("Dolan Dunn","sed.pede@gmail.com","UOB79IIM8BP","13"),
+  ("Diana Mcguire","fermentum.arcu@gmail.com","IYR25BGS7UW","1"),
+  ("Harding Hensley","diam.luctus@gmail.com","MNL40ZBJ4XP","1"),
+  ("Hannah Boyle","a@gmail.com","HVO72UXP3VB","9"),
+  ("Timon Odom","eget.volutpat.ornare@gmail.com","BMJ51EXQ5KT","13"),
+  ("Forrest Best","neque.non.quam@gmail.com","HFQ15XAV9WU","1"),
+  ("Lara Aguilar","arcu.curabitur@gmail.com","OEM02BKL4TX","1");
+INSERT INTO CLIENTES (Nombre,Email,NIT,Estado)
+VALUES
+  ("Shannon Schwartz","proin@gmail.com","LJF40PGV5PS","5"),
+  ("Erasmus Dotson","amet.ante@gmail.com","OBS58VKQ3OB","3"),
+  ("Sopoline Abbott","facilisis.non@gmail.com","TYO47VPG7WU","19"),
+  ("Uriah Jordan","non@gmail.com","FCL86VML3BM","3"),
+  ("Fay Morrow","cursus.luctus@gmail.com","TDU52GMX2MH","3"),
+  ("Ronan Griffin","cursus@gmail.com","VKP11YKG1LB","7");
